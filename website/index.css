@@ -1,0 +1,135 @@
+body {
+font-family: 'Lato', sans-serif;
+background-color: rgba(0,0,0,.15);
+border: 15px solid #fff;
+color: grey;
+
+}
+
+b {
+  font-size: 90%;
+}
+.container{
+  width: 80%;
+  padding: 10%;
+
+}
+
+.column1{
+  display: inline-block;
+  width: 40%;
+  margin: 0;
+  padding: 0;
+}
+
+.column2{
+  width: 40%;
+  float: right;
+  margin: 0;
+  padding: 0;
+  clear: both;
+
+
+}
+
+.top-sec{
+
+}
+
+.middle-sec{
+  width: 100%;
+  display: inline-block;
+  margin-top: 10%;
+}
+
+.columnOne{
+  display: inline-block;
+  width: 10%;
+}
+
+.columnTwo{
+  float: right;
+  width: 70%;
+}
+
+.sec-mind-sec{
+  margin-top: 10%;
+}
+
+table{
+  width: 100%;
+}
+tr:nth-child(even) {
+    background-color: white;
+}
+
+th, td{
+  border-bottom: 1px solid #ddd;
+}
+
+td, th{
+  text-align: center;
+}
+
+.text-half{
+  width: 45%;
+  display: inline-block;
+}
+
+.img-half{
+  width: 45%;
+  float: right;
+  clear: both;
+  margin-top: 3%;
+}
+
+.last-sec{
+  width: 100%;
+  display: inline-block;
+  margin-top: 10%;
+  font-size: 10px;
+}
+
+.third-car-sec{
+  float: left;
+  width: 33.33%;
+  display: inline-block;
+}
+
+.second-car-sec{
+  float: left;
+  width: 33.33%;
+}
+
+.firs-car-sec{
+  float: left;
+  width: 30%;
+}
+@media (max-width: 1000px) {
+
+  .column1{
+    width: 100%;
+  }
+
+  .column2{
+    width: 100%;
+  }
+  .third-car-sec{
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .second-car-sec{
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .first-car-sec{
+    width: 100%;
+    font-size: 16px;
+  }
+  .columnTwo {
+    width: 100%;
+  }
+
+}
